@@ -1,0 +1,39 @@
+#weather_block > div{
+    background: url(images/weather-overlay.png) repeat;
+    padding: 25px;
+    color: #fff;
+        margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#weather_block .today,
+#weather_block .location {    text-transform: uppercase;
+    font-size: 17px;
+    color: #fff;
+    line-height: 2;
+}
+#weather_block .location {margin-top: 15px; display: block;}
+#weather_block .temperature { font-size: 45px; color: #fff; font-weight: bold;}
+#weather_block  hr {background-color: #aab2bd; height: 1px; padding: 0; margin: 0; border:0;}
+#weather_block h4 {    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+#weather_block h5 {    font-family: 'Lato';}
+#weather_block .forecast {
+    margin-top: 15px;
+}
+#weather_block .forecast > div {
+    padding: 2px;
+    /*margin-right: 10px;*/
+}
+#weather_block .forecast .inner {
+    background: url(images/weather-block-overlay.png) repeat;
+    padding: 5px;
+    text-align: center;
+}
+
+#weather_block .forecast img {
+    margin: 0 auto;
+}
